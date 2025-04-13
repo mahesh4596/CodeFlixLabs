@@ -1,0 +1,1 @@
+[{"code":"void fibonacciSeries(int n) {\r\n    int a=0,b=1,c=0;\r\n    while (n--) \r\n    {\r\n        a=b;\r\n        b=c;\r\n        printf(\"%d \", c);\r\n        c=a+b;\r\n    }\r\n}\r\n","language":"c","time":"2025-04-13T11:14:54.903Z","isCorrect":true}]
