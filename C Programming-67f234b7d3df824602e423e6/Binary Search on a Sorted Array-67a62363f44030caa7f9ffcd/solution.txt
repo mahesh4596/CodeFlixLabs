@@ -1,0 +1,1 @@
+[{"code":"int binarySearch(int ary[],int n,int target)\r\n{\r\n    int i;\r\n    for(i=0;i<n;i++)\r\n    {\r\n        if(ary[i]==target && ary[i]!=ary[i+1])\r\n            return i;\r\n        if(ary[i]==ary[i+1])\r\n            return 3;\r\n    }\r\n    return -1;\r\n}\r\n","language":"c","time":"2025-04-13T11:12:00.821Z","isCorrect":true}]
