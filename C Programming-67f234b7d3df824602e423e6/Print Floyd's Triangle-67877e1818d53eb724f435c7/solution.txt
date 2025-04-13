@@ -1,0 +1,1 @@
+[{"code":"#include <stdio.h>\r\n\r\nint main() {\r\n    int i,j,n,t=1;\r\n    scanf(\"%i \",&n);\r\n    for(i=1;i<=n;i++)\r\n    {\r\n        for(j=1;j<=i;j++)\r\n        {\r\n           printf(\"%i \",t);\r\n            t++; \r\n        }\r\n            \r\n        printf(\"\\n\");\r\n    }\r\n}\r\n","language":"c","time":"2025-04-13T10:56:08.386Z","isCorrect":true}]
