@@ -1,0 +1,1 @@
+[{"code":"#include <stdio.h>\r\n#include <string.h>\r\n\r\nint main() {\r\n    char a[100],temp;\r\n    int i,j,k,len;\r\n    scanf(\"%s\",&a);\r\n    len=strlen(a);\r\n    for(i=0,j=len-1;i<j;i++,j--)\r\n    {\r\n        temp=a[i];\r\n        a[i]=a[j];\r\n        a[j]=temp;\r\n    }\r\n    printf(a);\r\n}\r\n","language":"c","time":"2025-04-16T11:59:48.659Z","isCorrect":true}]
