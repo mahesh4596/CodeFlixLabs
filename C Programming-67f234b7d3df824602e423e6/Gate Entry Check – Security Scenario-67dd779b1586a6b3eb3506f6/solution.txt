@@ -1,0 +1,1 @@
+[{"code":"int gateOpen(int threshold ,int entryTimes[], int n)\r\n{\r\n    int count = 0;\r\n    for(int i = 0; i<n; i++)\r\n    {\r\n        if(entryTimes[i] <= 0)\r\n            count++;\r\n    }\r\n    if(count >= threshold)\r\n        return 1;\r\n    else\r\n        return 0;\r\n}","language":"c","time":"2025-04-16T13:58:14.448Z","isCorrect":true}]
