@@ -1,0 +1,1 @@
+[{"code":"int countGlovePairs(int gloves[],int n)\r\n{\r\n    int count = 0;\r\n    for(int i = 0; i < n; i++)\r\n    {\r\n        for(int j = 0; j < n; j++)\r\n        {\r\n            if(gloves[i] == gloves[j])\r\n                count++;\r\n        }\r\n    }\r\n    return count;\r\n}","language":"c","time":"2025-04-21T14:45:36.785Z","isCorrect":false}]
